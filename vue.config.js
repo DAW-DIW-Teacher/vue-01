@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/git-vue/'
+    publicPath: '/vue-01/'
 }
