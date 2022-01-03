@@ -1,26 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MenuPrincipal/>
+  <HeroScreen/>
+  <Servicios />
+  <Precios />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MenuPrincipal from './components/MenuPrincipal.vue'
+import HeroScreen from './components/HeroScreen.vue'
+import Servicios from './components/servicios/Servicios.vue'
+import Precios from './components/Precios.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components: {MenuPrincipal, HeroScreen, Servicios, Precios}
   }
-}
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+#app {
+  font-family: 'Nunito', sans-serif;
+}
+
 </style>
