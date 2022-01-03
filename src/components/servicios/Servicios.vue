@@ -37,6 +37,5 @@ section#servicios div.cartas {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 20rem;
 }
 </style>

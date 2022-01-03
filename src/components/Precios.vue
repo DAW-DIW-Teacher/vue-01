@@ -16,7 +16,7 @@
                 </div>
                 <div class="producto">
                   <div class="articulo">
-                    <p>eNTRENAMIENTO GATOS</p>
+                    <p>ENTRENAMIENTO GATOS</p>
                     <div class="linea"></div>
                     <div class="precio">18 €</div>
                   </div>
@@ -41,37 +41,37 @@
           </div>
           <div class="columna">
                             <div class="titulo">
-                  <p>Servicios Básicos</p>
+                  <p>Servicios Premium</p>
               </div>
               <div class="producto">
                   <div class="articulo">
-                    <p>ENTRENAMIENTO PERROS</p>
+                    <p>ALOJAMIENTO CON CUIDADOS MÉDICOS</p>
                     <div class="linea"></div>
-                    <div class="precio">20 €</div>
+                    <div class="precio">45 €</div>
                   </div>
                   <div class="texto">Testo de relleno para este elemento muy chulo</div>
                 </div>
                 <div class="producto">
                   <div class="articulo">
-                    <p>eNTRENAMIENTO GATOS</p>
+                    <p>RECOGIDA Y ENTREGA</p>
                     <div class="linea"></div>
-                    <div class="precio">18 €</div>
+                    <div class="precio">24 €</div>
                   </div>
                   <div class="texto">Testo de relleno para este elemento muy chulo</div>
                 </div>
                 <div class="producto">
                   <div class="articulo">
-                    <p>ALOJAMIENTO PERROS</p>
+                    <p>SUPERVISIÓN POR WEBCAM</p>
                     <div class="linea"></div>
-                    <div class="precio">36 €</div>
+                    <div class="precio">10 €</div>
                   </div>
                   <div class="texto">Testo de relleno para este elemento muy chulo</div>
                 </div>
                 <div class="producto">
                   <div class="articulo">
-                    <p>ALOJAMIENTO GATOS</p>
+                    <p>ALOJAMIENTO DE ANIMÁLES EXÓTICOS</p>
                     <div class="linea"></div>
-                    <div class="precio">32 €</div>
+                    <div class="precio">30 €</div>
                   </div>
                   <div class="texto">Testo de relleno para este elemento muy chulo</div>
                 </div>
@@ -95,7 +95,7 @@ section#precios .lista {
     display: flex;
 }
 section#precios .lista .columna {
-    flex: 1 1 auto;
+    flex: 1 1 50%;
 }
 section#precios .lista .columna .texto {
     padding-right: 1rem;

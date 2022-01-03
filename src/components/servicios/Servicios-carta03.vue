@@ -22,7 +22,7 @@ div.carta {
     flex: 0 0 15rem;
 }
 div.carta .imagen{
-    height: 80px;
+    min-height: 80px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

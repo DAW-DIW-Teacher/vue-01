@@ -6,10 +6,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Precios</a></li>
-                <li><a href="#">Nuestro equipo</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#contacto">Nuestro equipo</a></li>
             </ul>
             <div>
                 <button>Registro</button>

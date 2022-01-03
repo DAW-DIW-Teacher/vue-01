@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section id="main">
       <div><h1>Escuela de entrenamiento de mascotas</h1><br>
       <h3>El mejor lugar para entregar y hacer disfrutar a tu mascota</h3>
       <button class="action">RESERVA AHORA</button></div>
@@ -18,21 +18,21 @@ export default {
 </script>
 
 <style>
-section.hero {
+section#main {
     display: flex;
     flex-wrap: nowrap;
     padding: 1rem 0rem;
     justify-content: flex-end;
 }
 
-section.hero .imagen {
+section#main .imagen {
     transform: scaleX(-1);
     flex: 0 1 50%;
 }
-section.hero img {
+section#main img {
     width: 100%;
 }
-section.hero div {
+section#main div {
     margin-left: 1rem;
     display: flex;
     flex-direction: column;
@@ -40,12 +40,12 @@ section.hero div {
     align-items: center;
     flex: 0 0 550px;
 }
-section.hero h1 {
+section#main h1 {
     font-size: 3rem;
     padding: 2rem 0rem;
 }
 
-section button.action{
+section#main button.action{
     background-color: #ec430b;
     font-weight: 700;
     color: white;

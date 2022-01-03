@@ -3,6 +3,8 @@
   <HeroScreen/>
   <Servicios />
   <Precios />
+  <Contacto />
+  <Pie />
 </template>
 
 <script>
@@ -10,10 +12,12 @@ import MenuPrincipal from './components/MenuPrincipal.vue'
 import HeroScreen from './components/HeroScreen.vue'
 import Servicios from './components/servicios/Servicios.vue'
 import Precios from './components/Precios.vue'
+import Contacto from './components/Contacto.vue'
+import Pie from './components/pie.vue'
 
 export default {
   name: 'App',
-  components: {MenuPrincipal, HeroScreen, Servicios, Precios}
+  components: {MenuPrincipal, HeroScreen, Servicios, Precios, Contacto, Pie}
   }
 </script>
 
